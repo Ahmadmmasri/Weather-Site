@@ -14,7 +14,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.post("/",(req,res)=>{
 const city= req.body.CityInput.toUpperCase();
-const idKey="99e39f6d333e08f016411d4c22585cb2";
+    // put your api key here
+const idKey="";
 if (city===Number(city)){
     res.write("enter city name")
 }
