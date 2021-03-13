@@ -1,0 +1,40 @@
+body{
+   text-align: center;
+   background-image: url("https://i.pinimg.com/originals/b1/20/25/b1202568d88e8fe9e02e7a67fa42c93e.jpg");
+   font-size: 20px;
+}
+
+form{
+    text-align: center;
+}
+
+.textCity{
+    width: 55%;
+    margin-right: 10%;
+    border-radius: 50px;
+    height: 50px;
+    font-size: x-large;
+    text-align: center;
+}
+
+form label{
+    margin-right: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f2f2f2;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+@media (max-width: 1020px){
+    .textCity{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .cli{
+        padding: 1rem;
+    }
+    form{
+        margin-top: 8%;
+    }
+}
